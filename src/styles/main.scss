@@ -1,0 +1,68 @@
+body::-webkit-scrollbar {
+    width: 0px;
+  }
+
+.quiz-section{
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero{
+    text-align: center;
+}
+
+.title-p{
+    margin-top: 100px;
+}
+
+.begin-button{
+    color: lightseagreen;
+    cursor: pointer;
+}
+
+.down-arrow{
+    width: 55px;
+    transform: rotate(90deg);
+    border: 1px solid lightseagreen;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.two-column-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 0px;
+}
+
+.form-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.birthday{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.form-button{
+    width: 150px;
+}
+
+::placeholder{
+    color: #333333;
+}
+
+.numbers{
+    margin: 5px 0;
+}
+
+#finished{
+    text-align: center;
+}

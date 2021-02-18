@@ -6,6 +6,18 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-anchor-links`,
+    `gatsby-plugin-smoothscroll`,
+    
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -100,
+        duration: 1000
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -13,6 +25,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

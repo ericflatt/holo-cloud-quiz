@@ -43,7 +43,7 @@ const IndexPage = () => (
         next question
       </a>
       </div>
-      <div>
+      <div className="form-input">
         <input className="birthday" type="date" name="birthdate" />      
       </div>
     </section>
@@ -59,7 +59,7 @@ const IndexPage = () => (
         next question
       </a>
       </div>
-      <div>
+      <div className="form-input">
 
       <input className="numbers" min="0" max="9" type="number" name="numbers" placeholder="0" />
         <input className="numbers" min="0" max="9" type="number" name="numbers" placeholder="0" />
@@ -78,7 +78,7 @@ const IndexPage = () => (
         next question
       </a>
       </div>
-      <div>
+      <div className="form-input">
         <input type="text" name="food" placeholder="name of food" />
       </div>
     </section>
@@ -93,7 +93,7 @@ const IndexPage = () => (
         next question
       </a>
       </div>
-      <div>
+      <div className="form-input">
         <input type="text" name="pet" placeholder="name of pet" />
       </div>
     </section>
@@ -108,7 +108,7 @@ const IndexPage = () => (
         next question
       </a>
       </div>
-      <div>
+      <div className="form-input">
         <input type="text" name="book" placeholder="name of book" />
       </div>
     </section>
@@ -123,7 +123,7 @@ const IndexPage = () => (
         next question
       </a>
       </div>
-      <div>
+      <div className="form-input">
         <input type="text" name="street name" placeholder="street name" />
       </div>
     </section>
@@ -138,7 +138,7 @@ const IndexPage = () => (
         next question
       </a>
       </div>
-      <div>
+      <div className="form-input">
         <input type="text" name="maiden name" placeholder="maiden name" />
       </div>
     </section>
@@ -148,12 +148,12 @@ const IndexPage = () => (
         <p>Question 8/8</p>
         <h1 className="test">What city were you born in?</h1>
         <p>here is some information about the quiz blah blah</p>
-        <button onClick={() => scrollTo("#finished")} type="submit"  class="form-button" value="/page-2">Submit
-        </button>
       </div>
-      <div>
+      <div className="form-input">
         <input type="text" name="city name" placeholder="city name" />
       </div>
+      <button style={{marginBottom:"150px"}} onClick={() => scrollTo("#finished")} type="submit"  class="form-button" value="/page-2">Submit
+        </button>
     </section>
 
     

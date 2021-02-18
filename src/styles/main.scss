@@ -39,6 +39,14 @@ body::-webkit-scrollbar {
     grid-template-rows: 1fr;
     grid-column-gap: 100px;
     grid-row-gap: 0px;
+
+    @media only screen and (max-width:1000px){
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 100px;
+        grid-row-gap: 0px;
+    }
 }
 
 .form-flex{
@@ -65,4 +73,16 @@ body::-webkit-scrollbar {
 
 #finished{
     text-align: center;
+}
+
+.form-input{
+    @media only screen and (max-width:1000px){
+        margin-top: -400px;
+    }
+}
+
+main{
+    @media only screen and (max-width:1000px){
+        padding: 5%;
+    }
 }

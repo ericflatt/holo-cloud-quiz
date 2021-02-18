@@ -19,6 +19,15 @@ module.exports = {
     },
 
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-WLGSJ9YNV9", // Google Analytics / GA
+        ],
+      },
+    },
+
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

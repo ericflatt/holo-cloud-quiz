@@ -12,11 +12,11 @@ import down from "../images/down.svg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="holo-cloud" />
     <section id="start" className="quiz-section">
       <div className="hero">
-        <h1 className="test">holo-cloud data privacy quiz</h1>
-        <p className="title-p">here is some information about the quiz blah blah</p>
+        <h1 className="test">holo-cloud quiz</h1>
+        <p className="title-p">This quiz will ask you for basic information about yourself, please answer all of the questions?</p>
         <a className="begin-button" onClick={() => scrollTo("#question-one")}>
           Begin the quiz
         </a>
@@ -37,10 +37,9 @@ const IndexPage = () => (
       <div className="title">
         <p>Question 1/8</p>
         <h1 className="test">What is your birthday?</h1>
-        <p>here is some information about the quiz blah blah</p>
         <a className="begin-button" onClick={() => scrollTo("#question-two")}>
         {" "}
-        next question
+        Next question
       </a>
       </div>
       <div className="form-input">
@@ -53,10 +52,9 @@ const IndexPage = () => (
       <div className="title">
         <p>Question 2/8</p>
         <h1 className="test">If you were to pick any four single digit numbers what would they be?</h1>
-        <p>here is some information about the quiz blah blah</p>
         <a className="begin-button" onClick={() => scrollTo("#question-three")}>
         {" "}
-        next question
+        Next question
       </a>
       </div>
       <div className="form-input">
@@ -72,14 +70,13 @@ const IndexPage = () => (
       <div className="title">
         <p>Question 3/8</p>
         <h1 className="test">What is your favorite food?</h1>
-        <p>here is some information about the quiz blah blah</p>
         <a className="begin-button" onClick={() => scrollTo("#question-four")}>
         {" "}
-        next question
+        Next question
       </a>
       </div>
       <div className="form-input">
-        <input type="text" name="food" placeholder="name of food" />
+        <input type="text" name="food" placeholder="Name of food" />
       </div>
     </section>
 
@@ -87,14 +84,13 @@ const IndexPage = () => (
       <div className="title">
         <p>Question 4/8</p>
         <h1 className="test">What is the name of your childhood pet?</h1>
-        <p>here is some information about the quiz blah blah</p>
         <a className="begin-button" onClick={() => scrollTo("#question-five")}>
         {" "}
-        next question
+        Next question
       </a>
       </div>
       <div className="form-input">
-        <input type="text" name="pet" placeholder="name of pet" />
+        <input type="text" name="pet" placeholder="Name of pet" />
       </div>
     </section>
 
@@ -102,14 +98,13 @@ const IndexPage = () => (
       <div className="title">
         <p>Question 5/8</p>
         <h1 className="test">What is the name of your favorite book?</h1>
-        <p>here is some information about the quiz blah blah</p>
         <a className="begin-button" onClick={() => scrollTo("#question-six")}>
         {" "}
-        next question
+        Next question
       </a>
       </div>
       <div className="form-input">
-        <input type="text" name="book" placeholder="name of book" />
+        <input type="text" name="book" placeholder="Name of book" />
       </div>
     </section>
 
@@ -117,14 +112,13 @@ const IndexPage = () => (
       <div className="title">
         <p>Question 6/8</p>
         <h1 className="test">What street did you grow up on?</h1>
-        <p>here is some information about the quiz blah blah</p>
         <a className="begin-button" onClick={() => scrollTo("#question-seven")}>
         {" "}
-        next question
+        Next question
       </a>
       </div>
       <div className="form-input">
-        <input type="text" name="street name" placeholder="street name" />
+        <input type="text" name="street name" placeholder="Street name" />
       </div>
     </section>
 
@@ -132,14 +126,13 @@ const IndexPage = () => (
       <div className="title">
         <p>Question 7/8</p>
         <h1 className="test">What is your mothers maiden name?</h1>
-        <p>here is some information about the quiz blah blah</p>
         <a className="begin-button" onClick={() => scrollTo("#question-eight")}>
         {" "}
-        next question
+        Next question
       </a>
       </div>
       <div className="form-input">
-        <input type="text" name="maiden name" placeholder="maiden name" />
+        <input type="text" name="maiden name" placeholder="Maiden name" />
       </div>
     </section>
 
@@ -147,10 +140,9 @@ const IndexPage = () => (
       <div className="title">
         <p>Question 8/8</p>
         <h1 className="test">What city were you born in?</h1>
-        <p>here is some information about the quiz blah blah</p>
       </div>
       <div className="form-input">
-        <input type="text" name="city name" placeholder="city name" />
+        <input type="text" name="city name" placeholder="City name" />
       </div>
       <button style={{marginBottom:"150px"}} onClick={() => scrollTo("#finished")} type="submit"  class="form-button" value="/page-2">Submit
         </button>
@@ -160,7 +152,7 @@ const IndexPage = () => (
     <section id="finished" className="quiz-section">
       <div className="title">
         <h1 className="test">Congrats</h1>
-        <p>You gave us a lot of valuable information. Hope you dont get hacked!</p>
+        <p>You gave us a lot of valuable information. Hope you get hacked!</p>
       </div>
     </section>
 

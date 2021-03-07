@@ -7,6 +7,7 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 import "../styles/main.scss"
 
 import down from "../images/down.svg"
+import logo from "../images/logoblack.png"
 
 
 
@@ -153,7 +154,11 @@ const Quiz = () => (
     <section id="finished" className="quiz-section">
       <div className="title">
         <h1 className="test">Congrats</h1>
-        <p>You gave us a lot of valuable information. Hope you get hacked!</p>
+        <p>The team at holo-cloud would like to thank you for this valuable information. Your secret is safe with us.</p>
+        <a className="holo-link" href="https://holo-cloud.com" target="_blank">
+        <img className="holo-logo" src={logo} alt="holo logo" />
+          <p>holo-cloud</p>
+        </a>
       </div>
     </section>
 

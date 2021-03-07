@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `data privacy quiz`,
+    title: `are you?`,
     description: `holo-cloud data privacy quiz`,
     author: `@eric_flatt`,
   },

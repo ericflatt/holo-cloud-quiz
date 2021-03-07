@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `are you?`,
-    description: `holo-cloud data privacy quiz`,
+    description: `Find out which Kardashian you are`,
     author: `@eric_flatt`,
   },
   plugins: [

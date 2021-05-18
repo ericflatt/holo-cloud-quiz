@@ -16,7 +16,7 @@ const IndexPage = () => (
     <SEO title="Which Kardashian" />
     <div className="index-hero">
       <h1 className="kar-title">Which Kardashian Are You?</h1>
-      <Link className="enter-quiz" to="/quiz/">Take the quiz to find out</Link>
+      <Link className="enter-quiz" to="/quiz/">Take the quiz</Link>
     </div>
   </Layout>
 )
